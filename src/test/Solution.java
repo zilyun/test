@@ -26,6 +26,8 @@ public class Solution {
 			answer = Math.max(answer, i);
 		}
 
+		System.out.println("test");
+		
 		return answer;
 	}
 }
