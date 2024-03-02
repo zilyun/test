@@ -25,6 +25,8 @@ public class Solution {
 		for (int i : land[land.length - 1]) {
 			answer = Math.max(answer, i);
 		}
+		
+		System.out.println("1:2:3:$");
 
 		return answer;
 	}
