@@ -26,7 +26,9 @@ public class Solution {
 			answer = Math.max(answer, i);
 		}
 		
-		System.out.println("1:2:3:$");
+		System.out.println("1:2:3:4");
+		System.out.println("revert5");
+		
 
 		return answer;
 	}
