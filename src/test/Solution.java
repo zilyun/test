@@ -9,7 +9,7 @@ public class Solution {
 	}
 
 	static int solution(int[][] land) {
-		int answer = 0;
+		int answer = 1;
 
 		for (int i = 1; i < land.length; i++) {
 			land[i][0] += Math.max(land[i - 1][1], Math.max(land[i - 1][2], land[i - 1][3]));
@@ -26,8 +26,6 @@ public class Solution {
 			answer = Math.max(answer, i);
 		}
 
-		System.out.println("test");
-		
 		return answer;
 	}
 }
