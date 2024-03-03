@@ -29,7 +29,6 @@ public class Solution {
 		System.out.println("1:2:3:4");
 		System.out.println("revert5");
 		System.out.println("revert6");
-		System.out.println("revert7");
 
 		return answer;
 	}
